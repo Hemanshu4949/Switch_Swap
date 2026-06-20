@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_service_description">Required for Switch Swap to execute system navigation macros like Home, Back, and Recents.</string>
+</resources>
