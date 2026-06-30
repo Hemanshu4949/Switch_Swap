@@ -27,7 +27,7 @@
 
 ## 💡 What Makes This Different
 
-Most "key mapper" apps die the moment Android kills their background process. Switch Swap doesn't.
+Most "Utility" apps die the moment Android kills their background process. Switch Swap doesn't.
 
 It runs as **two completely isolated engines** sharing a single database — a Flutter frontend for recording and configuring macros, and a **headless Dart isolate living inside a native Kotlin AccessibilityService** that intercepts physical keys globally, even with zero UI on screen. If Android assassinates the background engine to save battery, the moment you press a physical button, Switch Swap detects the dead isolate and **cold-boots it instantly** — your macros never silently fail.
 
